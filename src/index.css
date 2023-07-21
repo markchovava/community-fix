@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .bg__gradientGreen{
+    @apply bg-cover bg-gradient-to-br from-slate-50 to-green-100;
+  }
+  .bg__gradientPink{
+    @apply bg-cover bg-gradient-to-br from-pink-50 to-pink-400;
+  }
+  .bg__gradientPurple{
+    @apply bg-cover bg-gradient-to-br from-purple-50 to-purple-400;
+  }
+}
+
+.custom__overlayBlack::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(120deg, #000000, #000000);
+    opacity: .4;
+}
+
+.swiper-button-next, 
+.swiper-button-prev {
+      color: white !important;
+    } 
+
+.swiper-button-next, 
+.swiper-button-prev{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+/*   .swiper-button-next::after, 
+    .swiper-button-prev::after{
+        display: none;
+} */
+
+/* ANIMATIONS */
+.slidein {
+    animation-duration: 3s;
+    animation-delay: 1s;;
+    animation-name: slidein;
+    /* animation-iteration-count: 3; */
+    /* animation-direction: alternate; */
+  }
+
+
+/* DROPDOWN */
+  .dropdown {
+    @apply w-full lg:max-w-[36%] cursor-pointer;
+  }
+  .dropdown-btn {
+    @apply flex h-[64px] items-center px-[18px] border rounded-lg;
+  }
+  .dropdown-icon-primary {
+    @apply text-2xl mr-[18px] text-green-900;
+  }
+  .dropdown-icon-secondary {
+    @apply text-2xl text-green-900 ml-auto;
+  }
+  .dropdown-menu {
+    @apply px-6 py-8 text-[15px] space-y-6 shadow-md bg-white absolute w-full z-10 list-none rounded-b-lg;
+  }

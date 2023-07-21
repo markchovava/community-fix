@@ -1,0 +1,12 @@
+[
+    {"id": 1, "city": "Harare", "img": "harare.jpg"},
+    {"id": 2, "city": "Mutare", "img": "mutare.jpg"},
+    {"id": 3, "city": "Musvingo", "img": "masvingo.jpg"},
+    {"id": 4, "city": "Bulawayo", "img": "harare.jpg"},
+    {"id": 5, "city": "Inyanga", "img": "mutare.jpg"},
+    {"id": 6, "city": "Mazowe", "img": "masvingo.jpg"},
+    {"id": 7, "city": "Chinhoyi", "img": "harare.jpg"},
+    {"id": 8, "city": "Goromonzi", "img": "mutare.jpg"},
+    {"id": 9, "city": "Norton", "img": "masvingo.jpg"},
+    {"id": 10, "city": "Gweru", "img": "harare.jpg"}
+]

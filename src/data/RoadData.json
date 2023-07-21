@@ -1,0 +1,12 @@
+[
+    {"id": 1, "city_id":1, "district_id":1, "road": "First Street", "city": "Mutare", "district": "Luveve", "img": "harare.jpg"},
+    {"id": 2, "city_id":2, "district_id":2,"road": "Second Street", "city": "Harare", "district": "Westgate", "img": "mutare.jpg"},
+    {"id": 3, "city_id":3, "district_id":3,"road": "Third Street", "city": "Harare", "district": "Bevedere", "img": "masvingo.jpg"},
+    {"id": 4, "city_id":5, "district_id":4,"road": "Fourth Street", "city": "Harare", "district": "Mabelreign", "img": "harare.jpg"},
+    {"id": 5, "city_id":5, "district_id":5,"road": "Sixth Street", "city": "Bulawayo", "district": "Esigodhini",  "img": "mutare.jpg"},
+    {"id": 6, "city_id":4, "district_id":6,"road": "Seventh Street", "city": "Mutare", "district": "Makomoyo", "img": "masvingo.jpg"},
+    {"id": 7, "city_id":6, "district_id":7,"road": "Eighth Street", "city": "Masvingo", "district": "Ivhu", "img": "harare.jpg"},
+    {"id": 8, "city_id":6, "district_id":8,"road": "Ninth Street", "city": "Harare", "district": "Mbare", "img": "mutare.jpg"},
+    {"id": 9, "city_id":7, "district_id":9,"road": "Tenth Street", "city": "Harare", "district": "Eastlea", "img": "masvingo.jpg"},
+    {"id": 10, "city_id":8, "district_id":10,"road": "Main Street", "city": "Harare", "district": "Avondale", "img": "harare.jpg"}
+]
